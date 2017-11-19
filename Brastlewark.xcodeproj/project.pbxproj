@@ -7,23 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F6A2A6F1FBF037500F46E79 /* GnomesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A2A6E1FBF037500F46E79 /* GnomesListVC.swift */; };
+		0F6A2A711FBF039600F46E79 /* GnomeDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A2A701FBF039600F46E79 /* GnomeDetailVC.swift */; };
+		0F6A2A751FBF0DF500F46E79 /* GnomesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A2A741FBF0DF500F46E79 /* GnomesInteractor.swift */; };
+		0F6A2A781FBF165600F46E79 /* GnomesContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A2A771FBF165600F46E79 /* GnomesContract.swift */; };
+		0F6A2A7A1FBF183C00F46E79 /* GnomesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6A2A791FBF183C00F46E79 /* GnomesPresenter.swift */; };
 		0F763BC41FBEF5F300A10C29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F763BC31FBEF5F300A10C29 /* AppDelegate.swift */; };
-		0F763BC61FBEF5F300A10C29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F763BC51FBEF5F300A10C29 /* ViewController.swift */; };
 		0F763BC91FBEF5F300A10C29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F763BC71FBEF5F300A10C29 /* Main.storyboard */; };
 		0F763BCC1FBEF5F300A10C29 /* Brastlewark.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F763BCA1FBEF5F300A10C29 /* Brastlewark.xcdatamodeld */; };
-		0F763BCE1FBEF5F300A10C29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F763BCD1FBEF5F300A10C29 /* Assets.xcassets */; };
 		0F763BD11FBEF5F300A10C29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F763BCF1FBEF5F300A10C29 /* LaunchScreen.storyboard */; };
+		0F763BE61FBEF9DA00A10C29 /* Wireframes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F763BE51FBEF9DA00A10C29 /* Wireframes.swift */; };
+		0F763BE81FBEFA2900A10C29 /* BrastlewarkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F763BE71FBEFA2900A10C29 /* BrastlewarkAPI.swift */; };
+		0F763BEA1FBEFB3100A10C29 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F763BE91FBEFB3100A10C29 /* NetworkManager.swift */; };
+		0F763BEC1FBEFB7000A10C29 /* LocalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F763BEB1FBEFB7000A10C29 /* LocalManager.swift */; };
+		0F763BF51FBEFD3400A10C29 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F763BF41FBEFD3400A10C29 /* BaseVC.swift */; };
+		46C89626C5E22DC0B83780F4 /* Pods_Brastlewark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68BFD661E1A43A6E7C32545A /* Pods_Brastlewark.framework */; };
+		498067CF1FBF71D100C8906D /* Gnome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498067CE1FBF71D100C8906D /* Gnome.swift */; };
+		498067D11FBF754F00C8906D /* Brastlewark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498067D01FBF754F00C8906D /* Brastlewark.swift */; };
+		498067D31FBF7BB500C8906D /* GnomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498067D21FBF7BB500C8906D /* GnomeCell.swift */; };
+		498067D51FC031D200C8906D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498067D41FC031D200C8906D /* Assets.xcassets */; };
+		49AA2E831FC1D18C00364968 /* AnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AA2E821FC1D18C00364968 /* AnimationVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F6A2A6E1FBF037500F46E79 /* GnomesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomesListVC.swift; sourceTree = "<group>"; };
+		0F6A2A701FBF039600F46E79 /* GnomeDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeDetailVC.swift; sourceTree = "<group>"; };
+		0F6A2A741FBF0DF500F46E79 /* GnomesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomesInteractor.swift; sourceTree = "<group>"; };
+		0F6A2A771FBF165600F46E79 /* GnomesContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomesContract.swift; sourceTree = "<group>"; };
+		0F6A2A791FBF183C00F46E79 /* GnomesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomesPresenter.swift; sourceTree = "<group>"; };
 		0F763BC01FBEF5F300A10C29 /* Brastlewark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brastlewark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F763BC31FBEF5F300A10C29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0F763BC51FBEF5F300A10C29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0F763BC81FBEF5F300A10C29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F763BCB1FBEF5F300A10C29 /* Brastlewark.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Brastlewark.xcdatamodel; sourceTree = "<group>"; };
-		0F763BCD1FBEF5F300A10C29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F763BD01FBEF5F300A10C29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F763BD21FBEF5F300A10C29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F763BE51FBEF9DA00A10C29 /* Wireframes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wireframes.swift; sourceTree = "<group>"; };
+		0F763BE71FBEFA2900A10C29 /* BrastlewarkAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrastlewarkAPI.swift; sourceTree = "<group>"; };
+		0F763BE91FBEFB3100A10C29 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		0F763BEB1FBEFB7000A10C29 /* LocalManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalManager.swift; sourceTree = "<group>"; };
+		0F763BF41FBEFD3400A10C29 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		2AA936213197E619DAD271B7 /* Pods-Brastlewark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brastlewark.release.xcconfig"; path = "Pods/Target Support Files/Pods-Brastlewark/Pods-Brastlewark.release.xcconfig"; sourceTree = "<group>"; };
+		421174E7746CD82F2EB6D13D /* Pods-Brastlewark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brastlewark.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Brastlewark/Pods-Brastlewark.debug.xcconfig"; sourceTree = "<group>"; };
+		498067CE1FBF71D100C8906D /* Gnome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gnome.swift; sourceTree = "<group>"; };
+		498067D01FBF754F00C8906D /* Brastlewark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brastlewark.swift; sourceTree = "<group>"; };
+		498067D21FBF7BB500C8906D /* GnomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnomeCell.swift; sourceTree = "<group>"; };
+		498067D41FC031D200C8906D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49AA2E821FC1D18C00364968 /* AnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationVC.swift; sourceTree = "<group>"; };
+		68BFD661E1A43A6E7C32545A /* Pods_Brastlewark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brastlewark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46C89626C5E22DC0B83780F4 /* Pods_Brastlewark.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F6A2A761FBF15DD00F46E79 /* Gnomes */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A2A6E1FBF037500F46E79 /* GnomesListVC.swift */,
+				498067D21FBF7BB500C8906D /* GnomeCell.swift */,
+				0F6A2A771FBF165600F46E79 /* GnomesContract.swift */,
+				0F6A2A791FBF183C00F46E79 /* GnomesPresenter.swift */,
+				0F6A2A701FBF039600F46E79 /* GnomeDetailVC.swift */,
+			);
+			path = Gnomes;
+			sourceTree = "<group>";
+		};
 		0F763BB71FBEF5F300A10C29 = {
 			isa = PBXGroup;
 			children = (
 				0F763BC21FBEF5F300A10C29 /* Brastlewark */,
 				0F763BC11FBEF5F300A10C29 /* Products */,
+				87FCE74DD85CE66F250FCC6F /* Pods */,
+				D855362C00850D23F7962247 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +101,162 @@
 		0F763BC21FBEF5F300A10C29 /* Brastlewark */ = {
 			isa = PBXGroup;
 			children = (
+				0F763BD81FBEF68F00A10C29 /* Wireframes */,
+				0F763BD91FBEF6A300A10C29 /* DataManager */,
+				0F763BDA1FBEF6B300A10C29 /* Interactor */,
+				0F763BDB1FBEF6C900A10C29 /* Model */,
+				0F763BDC1FBEF6DB00A10C29 /* UI */,
+				0F763BDD1FBEF6EC00A10C29 /* Supporting Files */,
+				0F763BDE1FBEF71F00A10C29 /* Assets */,
 				0F763BC31FBEF5F300A10C29 /* AppDelegate.swift */,
-				0F763BC51FBEF5F300A10C29 /* ViewController.swift */,
-				0F763BC71FBEF5F300A10C29 /* Main.storyboard */,
-				0F763BCD1FBEF5F300A10C29 /* Assets.xcassets */,
-				0F763BCF1FBEF5F300A10C29 /* LaunchScreen.storyboard */,
 				0F763BD21FBEF5F300A10C29 /* Info.plist */,
-				0F763BCA1FBEF5F300A10C29 /* Brastlewark.xcdatamodeld */,
 			);
 			path = Brastlewark;
+			sourceTree = "<group>";
+		};
+		0F763BD81FBEF68F00A10C29 /* Wireframes */ = {
+			isa = PBXGroup;
+			children = (
+				0F763BE51FBEF9DA00A10C29 /* Wireframes.swift */,
+			);
+			path = Wireframes;
+			sourceTree = "<group>";
+		};
+		0F763BD91FBEF6A300A10C29 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				0F763BDF1FBEF77800A10C29 /* NetworkManager */,
+				0F763BE01FBEF78400A10C29 /* LocalManager */,
+				0F763BE11FBEF7CB00A10C29 /* SingletonManager */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		0F763BDA1FBEF6B300A10C29 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				0F6A2A741FBF0DF500F46E79 /* GnomesInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		0F763BDB1FBEF6C900A10C29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				498067D01FBF754F00C8906D /* Brastlewark.swift */,
+				498067CE1FBF71D100C8906D /* Gnome.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0F763BDC1FBEF6DB00A10C29 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0F763BE21FBEF84700A10C29 /* XIB */,
+				0F763BE31FBEF85600A10C29 /* Storyboard */,
+				0F763BE41FBEF86900A10C29 /* Views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		0F763BDD1FBEF6EC00A10C29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F763BDE1FBEF71F00A10C29 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				498067D41FC031D200C8906D /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		0F763BDF1FBEF77800A10C29 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				0F763BE71FBEFA2900A10C29 /* BrastlewarkAPI.swift */,
+				0F763BE91FBEFB3100A10C29 /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		0F763BE01FBEF78400A10C29 /* LocalManager */ = {
+			isa = PBXGroup;
+			children = (
+				0F763BCA1FBEF5F300A10C29 /* Brastlewark.xcdatamodeld */,
+				0F763BEB1FBEFB7000A10C29 /* LocalManager.swift */,
+			);
+			name = LocalManager;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		0F763BE11FBEF7CB00A10C29 /* SingletonManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SingletonManager;
+			sourceTree = "<group>";
+		};
+		0F763BE21FBEF84700A10C29 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		0F763BE31FBEF85600A10C29 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0F763BCF1FBEF5F300A10C29 /* LaunchScreen.storyboard */,
+				0F763BC71FBEF5F300A10C29 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		0F763BE41FBEF86900A10C29 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				498067D81FC0FD9900C8906D /* Custom */,
+				0F6A2A761FBF15DD00F46E79 /* Gnomes */,
+				0F763BF31FBEFD2500A10C29 /* BaseViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0F763BF31FBEFD2500A10C29 /* BaseViews */ = {
+			isa = PBXGroup;
+			children = (
+				0F763BF41FBEFD3400A10C29 /* BaseVC.swift */,
+			);
+			path = BaseViews;
+			sourceTree = "<group>";
+		};
+		498067D81FC0FD9900C8906D /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				49AA2E821FC1D18C00364968 /* AnimationVC.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		87FCE74DD85CE66F250FCC6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				421174E7746CD82F2EB6D13D /* Pods-Brastlewark.debug.xcconfig */,
+				2AA936213197E619DAD271B7 /* Pods-Brastlewark.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D855362C00850D23F7962247 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68BFD661E1A43A6E7C32545A /* Pods_Brastlewark.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F763BD51FBEF5F300A10C29 /* Build configuration list for PBXNativeTarget "Brastlewark" */;
 			buildPhases = (
+				291787A5C9C3A76CB56B9387 /* [CP] Check Pods Manifest.lock */,
 				0F763BBC1FBEF5F300A10C29 /* Sources */,
 				0F763BBD1FBEF5F300A10C29 /* Frameworks */,
 				0F763BBE1FBEF5F300A10C29 /* Resources */,
+				44056D98668AC54B451136DC /* [CP] Embed Pods Frameworks */,
+				81D36D8B5DE8587DB140BA23 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,21 +322,100 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F763BD11FBEF5F300A10C29 /* LaunchScreen.storyboard in Resources */,
-				0F763BCE1FBEF5F300A10C29 /* Assets.xcassets in Resources */,
+				498067D51FC031D200C8906D /* Assets.xcassets in Resources */,
 				0F763BC91FBEF5F300A10C29 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		291787A5C9C3A76CB56B9387 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Brastlewark-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44056D98668AC54B451136DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Brastlewark/Pods-Brastlewark-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/APESuperHUD/APESuperHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APESuperHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Brastlewark/Pods-Brastlewark-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81D36D8B5DE8587DB140BA23 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Brastlewark/Pods-Brastlewark-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0F763BBC1FBEF5F300A10C29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F763BC61FBEF5F300A10C29 /* ViewController.swift in Sources */,
+				0F763BEA1FBEFB3100A10C29 /* NetworkManager.swift in Sources */,
+				0F6A2A7A1FBF183C00F46E79 /* GnomesPresenter.swift in Sources */,
+				0F6A2A711FBF039600F46E79 /* GnomeDetailVC.swift in Sources */,
+				0F763BF51FBEFD3400A10C29 /* BaseVC.swift in Sources */,
+				0F763BE61FBEF9DA00A10C29 /* Wireframes.swift in Sources */,
+				49AA2E831FC1D18C00364968 /* AnimationVC.swift in Sources */,
+				0F6A2A781FBF165600F46E79 /* GnomesContract.swift in Sources */,
+				0F763BE81FBEFA2900A10C29 /* BrastlewarkAPI.swift in Sources */,
 				0F763BCC1FBEF5F300A10C29 /* Brastlewark.xcdatamodeld in Sources */,
 				0F763BC41FBEF5F300A10C29 /* AppDelegate.swift in Sources */,
+				498067CF1FBF71D100C8906D /* Gnome.swift in Sources */,
+				498067D31FBF7BB500C8906D /* GnomeCell.swift in Sources */,
+				0F763BEC1FBEFB7000A10C29 /* LocalManager.swift in Sources */,
+				0F6A2A6F1FBF037500F46E79 /* GnomesListVC.swift in Sources */,
+				498067D11FBF754F00C8906D /* Brastlewark.swift in Sources */,
+				0F6A2A751FBF0DF500F46E79 /* GnomesInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,12 +489,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -266,16 +541,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		0F763BD61FBEF5F300A10C29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 421174E7746CD82F2EB6D13D /* Pods-Brastlewark.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -283,13 +560,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = miguelmanas.Brastlewark;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		0F763BD71FBEF5F300A10C29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA936213197E619DAD271B7 /* Pods-Brastlewark.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,7 +575,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = miguelmanas.Brastlewark;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
